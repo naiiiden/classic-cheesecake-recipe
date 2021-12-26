@@ -29,7 +29,7 @@ img {
 }
 
 .recipedescription {
-    width: 20rem;
+    width: 100%;
     display: flex;
     align-items: baseline;
     gap: .5rem;
@@ -41,6 +41,7 @@ img {
     font-style: italic;
     font-size: 12px;
     color: #4f4f4f;
+    /* width: 85%; */
 }
 
 .title_description {
@@ -90,6 +91,8 @@ img {
     display: flex;
     flex-wrap: wrap-reverse;
     gap: 1.45rem;
+    padding: .25rem;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
 
 .first {
@@ -109,6 +112,12 @@ img {
     font-size: 16px;
     font-style: italic;
     color: #333333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
 }
 
 input[type=checkbox] {
