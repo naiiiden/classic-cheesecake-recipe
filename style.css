@@ -59,11 +59,12 @@ img {
     flex-direction: column;
 }
 
-.preparation-container h2 {
+.preparation-container h4 {
     font-size: 12.75px;
     font-weight: 700;
     font-family: "Montserrat";
-    color: #BDBDBD;
+    /* color: #BDBDBD; */
+    color: #595959;
 }
 
 .preparation-container p {
@@ -93,6 +94,7 @@ img {
     gap: 1.45rem;
     padding: .25rem;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: .125rem;
 }
 
 .first {
